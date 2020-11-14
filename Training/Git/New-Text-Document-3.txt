@@ -1,0 +1,43 @@
+GitHub
+------------------Khởi tạo khi mới cài đặt git---------------
+1. Kiểm tra đã cài đặt git chưa : 
++ run-> cmd -> git –version
++ Control Panel -> Appearance and Personalization - > File Exploder Option -> View -> Show hiden files
+
+2. Cấu hình cho user name : git config --global user.name = "user name"
+3. Cấu hình cho email : git config --global user.name =' email sử dụng '
+------------------------------------------------Thao tác với git--------------------------------------------------------
+4. Tạo git repository 
+Vào project chuột phải chọn Git Bash Here - > nhập git init
+5. Xác nhận git 
+“ git add . “ : Xác nhận tất cả các file
+“ git add “tên file” “ : Xác nhận 1 file chỉ định 
+6. Khi thay đổi  1 file thì phải nhớ add lại file đó 
+7. Commit to repository : Commit vào local của máy cá nhân
+git commit –m “nội dung chú thích  VD commit to reposiitory “ 
+8. Gộp 5 và 7 : git commit –a –m “ nội dung “
+9. Xem lịch sử các lần thay đôi 
+git log 
+10. Trở lại trạng thái của 1 trong các lần thay đổi dùng khi đã up project lên github
++ git revert ‘commit id’ với commit id là dòng mã lần thay đổi màu vàng 
++ git push để nó update lại
+11. Up project lên github
+B1 : Về trang chủ tạo Repositories. Coppy địa chỉ https :// …. 
+B2 : git remote add ‘tên project trên máy’ ‘địa chỉ https :// …’
+VD :git remote add gitProject  https://github.com/NguyenVanTu1601/test.git
+B3 : $ git push --set-upstream ‘tên project’ master
+
+12.Lệnh xóa bỏ remote  : git remote rm ‘tên project’
+13. Lệnh kiểm tra remote : git remote -v
+14. Sao lưu project về  : git pull
+
+Các bước up project : 
+B1 : Chuột phải chọn Git Bash Here
+B2 : Nhập lệnh  git init
+B3 : Nhập git add . 
+B4 : git commit –m “commit”
+B5 : git remote add origin ‘địa chỉ https://....’
+B6 : git push –u origin master
+Các bước lấy project về : 
+B1 : Chuột phải chọn Git Bash Here
+B2 : Nhập git clone ‘tên đường dẫn file cần tải’

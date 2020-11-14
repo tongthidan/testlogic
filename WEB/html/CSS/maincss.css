@@ -1,0 +1,36 @@
+.tieu_de{
+    color: blue
+}
+body{
+    
+    background-image: url("../Image/songnuoc.jpg");
+    /* background-position: center; */
+    background-size: cover;
+    line-
+}
+.doan_van{
+    color: lavenderblush;
+    font-display: inherit;
+    font-size: 20px;
+    text-align: left;
+    display: block;
+    text-transform: inherit;
+    /* text-indent: 40px; */
+}
+.content{
+    display: flex;
+}
+.left{
+    width: 300px;
+    height: auto;
+    margin-right: 50px;
+    margin-top: 40px;
+}
+.right{
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.anhdaidien{
+    width: 100%;
+    border-radius: 180px;
+}
